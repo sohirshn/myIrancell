@@ -1,14 +1,18 @@
-.con__sidebar{
-    Width:331px;
+.con__sidebar {
+    Width: 331px;
     margin: 24px 21px;
 }
-.services{
+
+.services {
     background: #FFFCEF;
     border-radius: 13px;
     margin-top: 23px;
-    padding: 23px 35px;
+    padding: 23px 21px;
 }
+
 .ActiveServices {
-        margin-top: 29px;
-    margin-bottom: 191px;
+    padding-right: 14px;
+    padding-bottom: 14px;
+    margin-top: 29px;
+    margin-bottom: 125px;
 }

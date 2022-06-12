@@ -1,0 +1,16 @@
+.con__followLink{
+    background: #FFFFFF;
+    border-radius: 8px;
+    display: flex;
+    padding: 16px 20px;
+}
+.con__followLink img {
+    width: 59px;
+    height: 54px;
+    margin-right: 33px;
+}
+.con__followLink p  {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 28px;
+}

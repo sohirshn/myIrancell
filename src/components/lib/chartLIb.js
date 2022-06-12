@@ -34,7 +34,7 @@ const data = [
     },
 ];
 
-export default class Example extends PureComponent {
+export default class ChartLib extends PureComponent {
 
     render() {
         return (

@@ -41,7 +41,7 @@ function Menu() {
                         <img src={service}/>
                         خدمات</a>
                 </li>
-                <li className={style.sep__text}>مدیریتس</li>
+                <li className={style.sep__text}>مدیریت</li>
                 <li>
                     <a>
                         <img src={manSer}/>

@@ -4,6 +4,7 @@ import Navbar from "../components/navbar";
 import banner from '../assets/img/banner.png'
 import Chart from "../components/chart";
 import Banner from "../components/banner";
+import Suggestion from "../components/suggestion";
 
 function Dashboard() {
     return (
@@ -14,6 +15,9 @@ function Dashboard() {
                 <Banner/>
                 <div className={style.chartDiv}>
                     <Chart/>
+                </div>
+                <div className={style.suggestions}>
+                    <Suggestion/>
                 </div>
             </div>
         </div>

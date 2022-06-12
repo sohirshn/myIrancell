@@ -1,0 +1,40 @@
+.con__Suggestion {
+    padding: 15px 19px;
+    position: relative;
+    overflow: hidden;
+}
+
+.table {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.09);
+    border-radius: 9px;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    color: #818181;
+}
+
+.table thead {
+    font-weight: 700;
+    font-size: 15px;
+    color: #818181;
+}
+
+.table tr td, .table tr th {
+    padding: 10px 0;
+}
+
+.table tr:not(:last-of-type) td, .table tr th {
+    border-bottom: 1px solid #EBEBEB;
+}
+
+.btn {
+    background: #FDC816;
+    box-shadow: 0px 0px 8px rgba(253, 200, 22, 0.39);
+    border-radius: 5px;
+    border: none;
+    width: 73px;
+    height: 29px;
+    font-size: 15px;
+    color: #FFFFFF;
+}

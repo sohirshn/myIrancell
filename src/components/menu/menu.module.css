@@ -1,0 +1,32 @@
+.con__menu ul {
+    margin: 0;
+    flex-direction: column;
+    text-align: right;
+    padding: 0;
+    width: 191px;
+    display: inline-flex;
+}
+
+.con__menu ul li {
+    list-style: none;
+    padding: 9px 0;
+    font-size: 15px;
+    color: #818181;
+    font-weight: inherit;
+}
+
+.active {
+    color: #626161 !important;
+    font-weight: 700 !important;
+}
+
+.con__menu ul li a  img {
+    padding-left: 12px;
+}
+.sep__text {
+    font-size: 12px !important;
+    color: #E7E7E7 !important;
+}
+.mt42 {
+    margin-top: 42px;
+}

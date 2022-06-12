@@ -1,0 +1,25 @@
+.banner {
+    margin-top: 27px;
+    width: 781px;
+    height: 131px;
+    background: url("../../assets/img/banner.png");
+}
+
+.bannerText h2 {
+    font-weight: 400;
+    font-size: 23px;
+}
+
+.bannerText {
+    margin: 21px 0 18px 29px;
+    float: left;
+
+}
+
+.bannerText span {
+    background: #FDC816;
+    border-radius: 3px;
+    padding: 3px 7px;
+    color: white;
+    float: left;
+}

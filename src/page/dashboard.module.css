@@ -1,0 +1,23 @@
+.container {
+    background: #F7F7F7;
+    border-radius: 28px;
+    margin: 10px;
+    overflow: auto;
+    display: flex;
+}
+
+.setcionCenter {
+    margin: 24px 21px;
+    width: 781px;
+}
+
+.m0 {
+    margin: 0;
+}
+
+.chartDiv {
+    margin-top: 30px;
+    height: 337px;
+    background: #FFFFFF;
+    border-radius: 14px;
+}

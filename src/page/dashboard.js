@@ -5,6 +5,7 @@ import banner from '../assets/img/banner.png'
 import Chart from "../components/chart";
 import Banner from "../components/banner";
 import Suggestion from "../components/suggestion";
+import Sidebar from "../components/sidebar";
 
 function Dashboard() {
     return (
@@ -20,6 +21,7 @@ function Dashboard() {
                     <Suggestion/>
                 </div>
             </div>
+            <Sidebar/>
         </div>
     )
 }

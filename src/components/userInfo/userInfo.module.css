@@ -1,0 +1,23 @@
+.con__UserInfo{
+    background: #FFFFFF;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+}
+.con__UserInfo img{
+    border-radius: 100%;
+    border: 7px solid #FDC816;
+    width: 49px;
+    max-width: 49px;
+    min-width: 49px;
+}
+.content__info {
+    margin-right: 20px;
+    direction: ltr;
+    color: #818181;
+}
+.content__info span{
+    margin-right: 18px;
+
+}

@@ -6,10 +6,10 @@ function UserInfo() {
         <div className={style.con__UserInfo}>
 
             <img src={profile}/>
-<div className={style.content__info}>
-    <p>سلام حسین احمد پناه</p>
-    <span>+98 012367548</span>
-</div>
+            <div className={style.content__info}>
+                <p>سلام حسین احمد پناه</p>
+                <span>+98 012367548</span>
+            </div>
         </div>
     );
 }

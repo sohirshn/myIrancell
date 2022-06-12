@@ -5,7 +5,10 @@
 .services{
     background: #FFFCEF;
     border-radius: 13px;
-    height: 756px;
     margin-top: 23px;
     padding: 23px 35px;
+}
+.ActiveServices {
+        margin-top: 29px;
+    margin-bottom: 191px;
 }

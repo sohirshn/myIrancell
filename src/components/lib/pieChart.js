@@ -33,15 +33,7 @@ const renderActiveShape = (props) => {
                 endAngle={endAngle}
                 fill='#E4EBEC'
             />
-            <Sector
-                cx={cx}
-                cy={cy}
-                startAngle={startAngle}
-                endAngle={endAngle}
-                innerRadius={outerRadius + 6}
-                outerRadius={outerRadius + 10}
-                fill='#FDC816'
-            />
+
         </g>
     );
 };

@@ -8,7 +8,7 @@ function ActiveService() {
     return (
         <div className={style.con__activeService}>
             <h4>خدمات فعال</h4>
-<Actives/>
+            <Actives/>
         </div>
     );
 }

@@ -13,7 +13,7 @@ function Dashboard() {
             <Navbar/>
             <div className={style.setcionCenter}>
                 <h2 className={style.m0}>صفحه اصلی</h2>
-                <Banner/>
+                <Banner title={'اینهمه بسته بی سابقست!'} content={'اینجا چخبره!'}/>
                 <div className={style.chartDiv}>
                     <Chart/>
                 </div>

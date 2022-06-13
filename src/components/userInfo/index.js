@@ -1,14 +1,15 @@
 import style from './userInfo.module.css';
 import profile from '../../assets/img/profile.png'
 
-function UserInfo() {
+function UserInfo(props) {
+    const {theme , imgprofile , userName , userNumber} = props;
     return (
-        <div className={style.con__UserInfo}>
+        <div className={style[theme]}>
 
-            <img src={profile}/>
+            <img src={imgprofile}/>
             <div className={style.content__info}>
-                <p>سلام حسین احمد پناه</p>
-                <span>+98 012367548</span>
+                <p>سلام {userName}</p>
+                <span>{userNumber}</span>
             </div>
         </div>
     );

@@ -10,56 +10,57 @@ import manSer from  '../../assets/img/Category.png'
 import Activity from  '../../assets/img/Activity.png'
 import question from  '../../assets/img/question.png'
 import Location from  '../../assets/img/Location.png'
+import Icon from "../icon";
 function Menu() {
     return (
         <div className={style.con__menu}>
             <ul>
                 <li>
                     <a className={style.active}>
-                        <img src={home}/>
+                        <Icon src={home}/>
                         صفحه اصلی
                     </a>
                 </li>
                 <li className={style.sep__text}>سرویس ها</li>
                 <li>
                     <a>
-                        <img src={charge}/>
+                        <Icon src={charge}/>
                         شارژ سیم کارت</a>
                 </li>
                 <li>
                     <a>
-                        <img src={internet}/>
+                        <Icon src={internet}/>
                         اینترنت</a>
                 </li>
                 <li>
                     <a>
-                        <img src={chart}/>
+                        <Icon src={chart}/>
                         کارکرد و فروش</a>
                 </li>
                 <li>
                     <a>
-                        <img src={service}/>
+                        <Icon src={service}/>
                         خدمات</a>
                 </li>
                 <li className={style.sep__text}>مدیریت</li>
                 <li>
                     <a>
-                        <img src={manSer}/>
+                        <Icon src={manSer}/>
                         مدیریت خدمات</a>
                 </li>
                 <li>
                     <a>
-                        <img src={Activity}/>
+                        <Icon src={Activity}/>
                         مدیریت سیمکارت  </a>
                 </li>
                 <li className={style.mt42}>
                     <a>
-                        <img src={question}/>
+                        <Icon src={question}/>
                         سوالات متداول  </a>
                 </li>
                 <li>
                     <a>
-                        <img src={Location}/>
+                        <Icon src={Location}/>
                         تماس با ما  </a>
                 </li>
             </ul>

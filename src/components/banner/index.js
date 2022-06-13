@@ -1,11 +1,12 @@
 import style from "./banner.module.css";
 
-function Banner() {
+function Banner(props) {
+    const{src , title , content} = props;
     return (
-        <div className={style.banner}>
+        <div className={style.banner} >
             <div className={style.bannerText}>
-                <h2>اینهمه بسته بی سابقست!</h2>
-                <span>اینجا چخبره!</span>
+                <h2>{title}</h2>
+                <span>{content}</span>
             </div>
         </div>
     );
